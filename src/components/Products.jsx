@@ -9,13 +9,13 @@ import { EffectCards } from "swiper/modules";
 export default function Product() {
   return (
     <div id="products">
-      <div className="background-products w-full h-fit flex flex-col items-center">
-        <h1 className="font-bold text-white mb-20 mt-20 xs:text-5xl md:text-6xl">
+      <div className="background-products w-full h-fit flex flex-col items-center pb-10">
+        <h1 className="pt-16 font-bold text-white mb-20 mt-20 xs:text-4xl md:text-6xl">
           Our Products
         </h1>
 
         <div className="products-container w-full text-center grid gap-10 lg:grid-cols-2 xl:grid-cols-4">
-          <div className="swipper-container transition hover:translate-y-[-20px]">
+          <div className="swipper-container transition hover:translate-y-[-20px]" data-aos="fade-right">
             <div className="mb-2 text-white text-center">Hold And Drag To See More ....</div>
             <Swiper
               effect={"cards"}
@@ -42,7 +42,7 @@ export default function Product() {
             </Swiper>
             <div className="mt-3 text-indigo-900 font-bold text-4xl text-center">Mask Series</div>
           </div>
-          <div className="swipper-container transition hover:translate-y-[-20px]">
+          <div className="swipper-container transition hover:translate-y-[-20px]" data-aos="fade-left">
             <div className="mb-2 text-white">Hold And Drag To See More ....</div>
             <Swiper
               effect={"cards"}
@@ -73,7 +73,7 @@ export default function Product() {
             </Swiper>
             <div className="mt-3 text-indigo-900 font-bold text-4xl text-center">8 Month +</div>
           </div>
-          <div className="swipper-container transition hover:translate-y-[-20px]">
+          <div className="swipper-container transition hover:translate-y-[-20px]" data-aos="fade-right">
             <div className="mb-2 text-white">Hold And Drag To See More ....</div>
             <Swiper
               effect={"cards"}
@@ -96,7 +96,7 @@ export default function Product() {
             </Swiper>
             <div className="mt-3 text-indigo-900 font-bold text-4xl text-center">Bundle Snack</div>
           </div>
-          <div className="swipper-container transition hover:translate-y-[-20px]">
+          <div className="swipper-container transition hover:translate-y-[-20px]" data-aos="fade-left">
             <div className="mb-2 text-white">Hold And Drag To See More ....</div>
             <Swiper
               effect={"cards"}

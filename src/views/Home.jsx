@@ -3,6 +3,9 @@ import Hero from "../components/Hero";
 import Aos from "aos";
 import "aos/dist/aos.css"
 import Product from "../components/Products";
+import Memories from "../components/Memories";
+import FAQ from "../components/FAQ";
+import Store from "../components/Store";
 
 export default function Home() {
 
@@ -14,6 +17,9 @@ export default function Home() {
     <>
     <Hero />
     <Product />
+    <Memories />
+    <FAQ />
+    <Store />
     </>
   );
 }

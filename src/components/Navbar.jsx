@@ -12,26 +12,20 @@ export default function Navbar() {
         <div className="absolute right-10 top-8">
           <MobileMenu />
           <ul className="hidden gap-8 lg:flex">
-            <li className="cursor-pointer text-white font-bold text-base pb-4 duration-100 hover:scale-105 hover:border-b-4 border-white-400">
-              Home
+            <li className="cursor-pointer text-white font-bold text-xl pb-4 duration-100 hover:scale-105 hover:border-b-4 border-white-400">
+              <a href="#home">Home</a>
             </li>
-            <li className="cursor-pointer text-white font-bold text-base pb-4 duration-100 hover:scale-105 hover:border-b-4 border-white-400">
-              Customer Reviews
+            <li className="cursor-pointer text-white font-bold text-xl pb-4 duration-100 hover:scale-105 hover:border-b-4 border-white-400">
+              <a href="#products">Our Products</a>
             </li>
-            <li className="cursor-pointer text-white font-bold text-base pb-4 duration-100 hover:scale-105 hover:border-b-4 border-white-400">
-              About Us
+            <li className="cursor-pointer text-white font-bold text-xl pb-4 duration-100 hover:scale-105 hover:border-b-4 border-white-400">
+              <a href="#memories">Memories</a>
             </li>
-            <li className="cursor-pointer text-white font-bold text-base pb-4 duration-100 hover:scale-105 hover:border-b-4 border-white-400">
-              Omo! Feature
+            <li className="cursor-pointer text-white font-bold text-xl pb-4 duration-100 hover:scale-105 hover:border-b-4 border-white-400">
+              <a href="#faq">FAQ</a>
             </li>
-            <li className="cursor-pointer text-white font-bold text-base pb-4 duration-100 hover:scale-105 hover:border-b-4 border-white-400">
-              How To Buy
-            </li>
-            <li className="cursor-pointer text-white font-bold text-base pb-4 duration-100 hover:scale-105 hover:border-b-4 border-white-400">
-              FAQ
-            </li>
-            <li className="cursor-pointer text-white font-bold text-base pb-4 duration-100 hover:scale-105 hover:border-b-4 border-white-400">
-              About Project
+            <li className="cursor-pointer text-white font-bold text-xl pb-4 duration-100 hover:scale-105 hover:border-b-4 border-white-400">
+              <a href="#store">Where to Buy</a>
             </li>
           </ul>
         </div>
