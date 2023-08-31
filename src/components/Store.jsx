@@ -1,7 +1,7 @@
 export default function Store() {
   return (
     <div id="store">
-      <div className="w-full flex flex-col items-center h-screen">
+      <div className="w-full flex flex-col items-center h-screen bg-white">
         <h1 className="font-bold pt-40 text-[#8BCCD3] xs:text-2xl md:text-4xl">
           Where To Buy <span className="text-[#E4BA61] xs:text-3xl md:text-5xl">?</span>
         </h1>
