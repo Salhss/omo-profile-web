@@ -16,9 +16,9 @@ export default function Store() {
           </a>
           <a href="https://www.tokopedia.com/omohealthysnack" target="_blank">
             <img
-              src="https://www.sukrensi.com/wp-content/uploads/2022/05/logo-tokopedia-vector-1.jpg"
+              src="https://seeklogo.com/images/T/tokopedia-logo-40654CCDD6-seeklogo.com.png"
               alt=""
-              className="w-[400px]"
+              className="w-[250px]"
               data-aos="fade-up"
             />
           </a>
